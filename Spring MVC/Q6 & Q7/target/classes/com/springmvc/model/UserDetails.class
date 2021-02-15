@@ -1,0 +1,18 @@
+Êþº¾   ; >  com/springmvc/model/UserDetails  java/lang/Object username Ljava/lang/String; RuntimeVisibleAnnotations 'Ljavax/validation/constraints/NotBlank; #Ljavax/validation/constraints/Size; min    message required RuntimeVisibleTypeAnnotations password email contact J city "Lorg/springframework/lang/NonNull; zipcode <init> ()V Code
+     LineNumberTable LocalVariableTable this !Lcom/springmvc/model/UserDetails; M(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;JLjava/lang/String;J)V	  !  	  #  	  %  	  '  	  )  	  +   getUsername ()Ljava/lang/String; setUsername (Ljava/lang/String;)V getPassword setPassword getEmail setEmail 
+getContact ()J 
+setContact (J)V getCity setCity 
+getZipcode 
+setZipcode 
+SourceFile UserDetails.java !                  	  
+I  s 
+           	  
+I  s 
+                                         3     *· ±       
+                          ¨  	   &*· *+µ  *,µ "*-µ $*µ &*µ (*µ *±       "       	          %      H    &       &      &      &      &      &      &     , -     /     *´  °           "              . /     >     *+µ  ±       
+    %  &                    0 -     /     *´ "°           (              1 /     >     *+µ "±       
+    +  ,                    2 -     /     *´ $°           .              3 /     >     *+µ $±       
+    1  2                    4 5     /     *´ &­           4              6 7     >     *µ &±       
+    7  8                    8 -     /     *´ (°           :              9 /     >     *+µ (±       
+    =  >                    : 5     /     *´ *­           @              ; 7     >     *µ *±       
+    C  D                    <    =
