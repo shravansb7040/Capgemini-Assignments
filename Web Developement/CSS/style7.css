@@ -1,0 +1,12 @@
+p{
+	font-size: 25px;
+	outline-style: dotted ;
+	outline-color: #49ff49;
+	border: 3px solid #ffdddd;
+	width: 46%;
+}
+body{
+	outline-style: solid;
+	outline-color: #e0ffff;
+	padding: 20px;
+}

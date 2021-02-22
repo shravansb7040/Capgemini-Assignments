@@ -1,0 +1,18 @@
+.p1{
+	border-style: solid;
+    border-width: thick;
+}
+.p2{
+	border-style: solid;
+    border-width: medium;
+}
+.p3{
+	border-style: solid;
+    border-width: thin;
+}
+body{
+	background-color: #e0ffff;
+}
+br{
+	background: #FFFFFF
+}
