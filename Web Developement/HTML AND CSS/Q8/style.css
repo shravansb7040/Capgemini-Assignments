@@ -1,0 +1,106 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Papyrus";
+  font-size: 20px;
+  background-color: #F5F5F5;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+  background-image: url("bg.jpg");
+  background-size: 1400px 800px;
+  background-repeat: no-repeat;
+  margin: 10px;
+  background-position: center;
+  color: #FFFFFF;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  width: 600px;
+  margin: auto;
+}
+
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #FFFFFF ;
+    margin-left: 40%;
+    text-shadow: 2px 2px #000000;
+    transition: background 500ms ease;
+}
+
+h1{
+  text-shadow: 2px 2px #ff0000;
+  font-family: "Papyrus",serif,sans-serif;
+  font-size: 40px;
+  color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #333;
+    margin: 10px;
+    display: block;
+    color: #FFFFFF;
+    background-color: #505050;
+    font-family: "Papyrus";
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  border-radius: 50%;
+  color: white;
+  text-align: center;
+  padding: 8px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #282E34;
+}
